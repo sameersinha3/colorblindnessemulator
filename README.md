@@ -2,7 +2,7 @@
 
 This page is mostly for me to practice my JavaScript and frontend and learn how to make a Chrome extension. I am also passionate about accessibility, which is how I came across this A11y talk and wanted to learn more about color blindness.
 
-##Acknowledgements
+## Acknowledgements
 
 This browser extension for Chrome can be used to emulate eight different forms of color blindness. Inspired by Agathe Badia's Talk [here](https://noti.st/agathebadia/DTySgu/accessibility-ember-learning-about-colorblindness#sKc0uBX)
 
