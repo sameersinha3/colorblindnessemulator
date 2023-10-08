@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.scss">
+        <link rel="manifest" href="manifest.json">
+    </head>
+
+    <body>
+        <div class="extension-body">
+            <div class="extension-header">
+                <h1 class="title">Color Blindness Emulator</h1>
+            </div>
+
+            <hr>
+
+            <form>
+                <h2>None</h2>
+                <div class="option">
+                    <input id="trichromacy-radio" type="radio" name="radio-group">
+                    <label for="trichromacy-radio">Remove all filters</label>
+                </div>
+
+                <h2>Red / Green</h2>
+                <div class="option">
+                    <input id="protanomaly-radio" type="radio" name="radio-group">
+                    <label for="protanomaly-radio">Red Weak / Protanomaly</label>
+                </div>
+                <div class="option">
+                    <input id="protanopia-radio" type="radio" name="radio-group">
+                    <label for="protanopia-radio">Red Blind / Protanopia</label>
+                </div>
+                <div class="option">
+                    <input id="deuteranomaly-radio" type="radio" name="radio-group">
+                    <label for="deuteranomaly-radio">Green Weak / Deuteranomaly</label>
+                </div>
+                <div class="option">
+                    <input id="deuteranopia-radio" type="radio" name="radio-group">
+                    <label for="deuteranopia-radio">Green Blind / Deuteranopia</label>
+                </div>
+
+                <h2>Blue / Yellow</h2>
+                <div class="option">
+                    <input id="tritanomaly-radio" type="radio" name="radio-group">
+                    <label for="tritanomaly-radio">Blue Weak / Tritanomaly</label>
+                </div>
+                <div class="option">
+                    <input id="tritanopia-radio" type="radio" name="radio-group">
+                    <label for="tritanopia-radio">Blue Blind / Tritanopia</label>
+                </div>
+
+                <h2>Total</h2>
+                <div class="option">
+                    <input id="achromatomaly-radio" type="radio" name="radio-group">
+                    <label for="achromatomaly-radio">Faded colors / Achromatomaly</label>
+                </div>
+                <div class="option">
+                    <input id="achromatopsia-radio" type="radio" name="radio-group">
+                    <label for="achromatopsia-radio">No colors / Achromatopsia</label>
+                </div>
+            </form>
+        </div>
+
+        <script src="listener.js"></script>
+    </body>
+</html>
