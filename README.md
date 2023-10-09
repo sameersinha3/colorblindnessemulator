@@ -14,9 +14,5 @@ Download this repo, then follow the instructions here: [How to load an unpacked 
 
 This page works on any non-internal page in Google Chrome. So, it won't work on your "Manage Extensions" screen in Chrome, for example, but it will work on YouTube, Figma, Jira, etc. Simply click the extension and select your filter. The filter is tab-specific and is cleared on page refresh.
 
-## Inspiration
-
-I am passionate about accessibility, and I believe that this extension could help raise awareness of
-
 ### Gallery
 ![example](./public/screenshot.png)
